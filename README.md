@@ -87,7 +87,7 @@ After launching the Gradio demo, use the interface as follows:
 
 8. Adjust the CFG scale and random seed. For inference without acceleration LoRA, we recommend CFG 2.5-3.5 with 50 steps. With acceleration LoRA, use CFG 1 with 4 steps.
 
-9. Click the **Runing Edit** button to generate the edited image.
+9. Click the **Run Editing** button to generate the edited image.
 
 ## 🔗 Citations
 
