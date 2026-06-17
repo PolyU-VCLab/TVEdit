@@ -93,13 +93,16 @@ After launching the Gradio demo, use the interface as follows:
 
 ```
 
-@article{xie2026tvedit,
+@article{xie2026text-vision,
 
   title={Text-Vision Co-Instructed Image Editing},
 
   author={Xie, Chenxi and Wu, Yuhui and Yi, Qiaosi and Zhang, Lei},
 
-  year={2026}
+  journal={arXiv preprint arXiv:2606.16767},
+  
+  year={2026},
+
 
 }
 
