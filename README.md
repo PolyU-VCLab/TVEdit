@@ -10,7 +10,7 @@ Qiaosi Yi<sup>1,2</sup> |
 <sup>1</sup>The Hong Kong Polytechnic University, <sup>2</sup>OPPO Research Institute
 
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://xiechenxi99.github.io/TVEdit/)&nbsp;
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=red)]([https://arxiv.org/abs/](https://huggingface.co/VCLab-PolyU/TVEdit/tree/main))&nbsp;
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2606.16767)&nbsp;
 [![Code](https://img.shields.io/badge/Code-GitHub-black?logo=github)](https://github.com/PolyU-VCLab/TVEdit)&nbsp;
 [![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-model-blue)](https://huggingface.co/VCLab-PolyU/TVEdit/tree/main)
 
