@@ -12,7 +12,7 @@ Qiaosi Yi<sup>1,2</sup> |
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://xiechenxi99.github.io/TVEdit/)&nbsp;
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2606.16767)&nbsp;
 [![Code](https://img.shields.io/badge/Code-GitHub-black?logo=github)](https://github.com/PolyU-VCLab/TVEdit)&nbsp;
-[![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-model-blue)](https://huggingface.co/VCLab-PolyU/TVEdit/tree/main)
+[![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-model-blue)](https://huggingface.co/VCLab-PolyU/TVEdit/tree/main)&nbsp;
 [![HF Daily Paper]([https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-model-blue)](https://huggingface.co/papers/2606.16767)
 </div>
 
