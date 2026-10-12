@@ -18,6 +18,7 @@ Qiaosi Yi<sup>1,2</sup> |
 
 ---
 
+### 🎉 *TVEdit is accepted by NeurIPS 2026*
 
 ## ⏰ Update
 
@@ -27,7 +28,7 @@ Qiaosi Yi<sup>1,2</sup> |
 
 - [ ] Release dataset.
 
-- [ ] Release training code.
+- [x] **2026.10.12**: Release training code.
 
 ## ⚙ Dependencies and Installation
 
