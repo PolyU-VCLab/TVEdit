@@ -65,10 +65,10 @@ class TVEditDataset(Dataset):
     def __getitem__(self, idx):
         entry = self.data[idx]
 
-        src_image_path = os.path.join(self.datapath,entry['root'],entry['image1'])
+        src_image_path = os.path.join(self.datapath,entry['image1'])
         src_point = np.array(entry['points1'])
         
-        tgt_image_path = os.path.join(self.datapath,entry['root'],entry['image2'])
+        tgt_image_path = os.path.join(self.datapath,entry['image2'])
         tgt_point  = np.array(entry['points2'])
         num_points_to_select = np.random.randint(1, min(6, len(src_point) + 1))
         num_points = min(10,len(src_point))

@@ -1,0 +1,49 @@
+model_path: "/home/notebook/data/group/wyh/ckpt/Qwen-Image-Edit"
+dtype: "bfloat16"
+devices: 8
+num_nodes: 1
+model:
+  union_cond_attn: true
+  add_cond_attn: false
+  latent_lora: false
+  use_sep: false
+  loss_type: "x"
+
+test:
+  test_size: 1024
+  
+train:
+  batch_size: 1
+  accumulate_grad_batches: 4
+  dataloader_workers: 8
+  save_interval: 40000
+  sample_interval: 80000
+  max_steps: -1
+  gradient_checkpointing: true
+  save_path: "runs"
+  train_size: 512
+  condition_type: "edit"
+  
+
+
+  dataset:
+    name: "tv-edit-trainingset.jsonl"
+    datapath: your data path
+    type: "edit_drag"
+    condition_size: 512
+    image_size: 512
+    padding: 8
+    drop_text_prob: 0.1
+    drop_image_prob: 0.1
+    # specific_task: ["removal", "style", "attribute_modification", "env", "swap"]
+
+  wandb:
+    project: "dragediting"
+
+  optimizer:
+    type: AdamW
+    params:
+      lr: 0.0001
+      weight_decay: 0.001
+    scheduler:
+      warmup_steps: 0

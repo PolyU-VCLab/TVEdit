@@ -13,6 +13,7 @@ Qiaosi Yi<sup>1,2</sup> |
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2606.16767)&nbsp;
 [![Code](https://img.shields.io/badge/Code-GitHub-black?logo=github)](https://github.com/PolyU-VCLab/TVEdit)&nbsp;
 [![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-model-blue)](https://huggingface.co/VCLab-PolyU/TVEdit/tree/main)&nbsp;
+[![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-dataset-blue)](https://huggingface.co/datasets/VCLab-PolyU/tv-edit-train)&nbsp;
 [![HF Dailty Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-paper-blue)](https://huggingface.co/papers/2606.16767)&nbsp;
 </div>
 
@@ -89,6 +90,14 @@ After launching the Gradio demo, use the interface as follows:
 8. Adjust the CFG scale and random seed. For inference without acceleration LoRA, we recommend CFG 2.5-3.5 with 50 steps. With acceleration LoRA, use CFG 1 with 4 steps.
 
 9. Click the **Run Editing** button to generate the edited image.
+
+## 🏋️ Training
+
+1. Download the TV-Edit training dataset from [Hugging Face](https://huggingface.co/datasets/VCLab-PolyU/tv-edit-train) and extract it.
+
+2. Edit `train_tvedit/config/tvedit_qwen_ppu.yaml` to set the number of GPUs, gradient accumulation steps, and other hyperparameters.
+
+3. Run `train_tvedit/script/train_tvedit_qwen.sh` to start training.
 
 ## 🔗 Citations
 
