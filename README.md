@@ -27,7 +27,7 @@ Qiaosi Yi<sup>1,2</sup> |
 
 - [x] **2026.6.13**: The inference code and TV-Edit model are available.
 
-- [ ] Release dataset.
+- [x] **2026.10.20** Release dataset.
 
 - [x] **2026.10.12**: Release training code.
 
