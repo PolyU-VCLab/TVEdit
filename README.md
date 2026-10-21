@@ -103,6 +103,8 @@ After launching the Gradio demo, use the interface as follows:
 
 See [evaluation/README.md](evaluation/README.md) for the benchmark layout, metric outputs, and the DINOv3 / LPIPS / Qwen3-VL weights.
 
+We also provide the inference results on DragBench in this repo.
+
 ## 🔗 Citations
 
 ```
