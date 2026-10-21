@@ -59,7 +59,7 @@ pip install transformers==4.52.4 pytorch-lightning==2.4.0 diffusers==0.35.1
 
 1. Download the base model checkpoint: [Qwen-Image-Edit](https://huggingface.co/Qwen/Qwen-Image-Edit).
 
-2. Download the trained TV-Edit weights: [TVEdit-Qwen-Image-Edit]().
+2. Download the trained TV-Edit weights: [TVEdit-Qwen-Image-Edit](https://huggingface.co/VCLab-PolyU/TVEdit/tree/main).
 
 3. [Optional] TV-Edit supports existing trained acceleration LoRA for 4-step editing: [Qwen-Image-Edit-4step](https://huggingface.co/lightx2v/Qwen-Image-Lightning/blob/main/Qwen-Image-Edit-Lightning-4steps-V1.0-bf16.safetensors).
 
@@ -98,6 +98,10 @@ After launching the Gradio demo, use the interface as follows:
 2. Edit `train_tvedit/config/tvedit_qwen_ppu.yaml` to set the number of GPUs, gradient accumulation steps, and other hyperparameters.
 
 3. Run `train_tvedit/script/train_tvedit_qwen.sh` to start training.
+
+## 📊 Evaluation
+
+See [evaluation/README.md](evaluation/README.md) for the benchmark layout, metric outputs, and the DINOv3 / LPIPS / Qwen3-VL weights.
 
 ## 🔗 Citations
 
