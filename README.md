@@ -13,7 +13,7 @@ Qiaosi Yi<sup>1,2</sup> |
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2606.16767)&nbsp;
 [![Code](https://img.shields.io/badge/Code-GitHub-black?logo=github)](https://github.com/PolyU-VCLab/TVEdit)&nbsp;
 [![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-model-blue)](https://huggingface.co/VCLab-PolyU/TVEdit/tree/main)&nbsp;
-[![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-dataset-blue)](https://huggingface.co/datasets/VCLab-PolyU/tv-edit-train)&nbsp;
+[![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-dataset-blue)](https://huggingface.co/datasets/VCLab-PolyU/tv-edit-dataset)&nbsp;
 [![HF Dailty Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-paper-blue)](https://huggingface.co/papers/2606.16767)&nbsp;
 </div>
 
@@ -93,7 +93,7 @@ After launching the Gradio demo, use the interface as follows:
 
 ## 🏋️ Training
 
-1. Download the TV-Edit training dataset from [Hugging Face](https://huggingface.co/datasets/VCLab-PolyU/tv-edit-train) and extract it.
+1. Download the TV-Edit training dataset from [Hugging Face](https://huggingface.co/datasets/VCLab-PolyU/tv-edit-dataset) and extract it.
 
 2. Edit `train_tvedit/config/tvedit_qwen_ppu.yaml` to set the number of GPUs, gradient accumulation steps, and other hyperparameters.
 
