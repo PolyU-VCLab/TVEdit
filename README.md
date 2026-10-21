@@ -95,7 +95,7 @@ After launching the Gradio demo, use the interface as follows:
 
 1. Download the TV-Edit training dataset from [Hugging Face](https://huggingface.co/datasets/VCLab-PolyU/tv-edit-dataset) and extract it.
 
-2. Edit `train_tvedit/config/tvedit_qwen_ppu.yaml` to set the number of GPUs, gradient accumulation steps, and other hyperparameters.
+2. Edit `train_tvedit/config/tvedit_qwen.yaml` to set the number of GPUs, gradient accumulation steps, and other hyperparameters.
 
 3. Run `train_tvedit/script/train_tvedit_qwen.sh` to start training.
 
